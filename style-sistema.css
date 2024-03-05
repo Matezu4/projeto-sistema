@@ -9,10 +9,11 @@
 } 
 
 body{
+    scale: 0.89;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(fundo-gif1.gif);
 }
 
-img{
+.foto img{
     margin: 3% 30px;
     border:4px solid rgb(68, 29, 14);
     border-radius: 30px;
@@ -38,7 +39,7 @@ img{
 
 h1.planeta{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(238, 0, 198);
     font-family: "Micro 5", sans-serif;
 }
@@ -57,20 +58,29 @@ span{
     margin-top: 20px;
     border:4px solid rgb(177, 74, 14);
     border-radius: 5%;
+    align-items: center;
 }
 
 .descricoes #sol{
     margin: 4% 40px;
     display: none;
+    text-align: center;
+    
 }
 
+.descricoes img{
+    margin: 4% 20px 30px;
+
+}
 .descricoes #sol:target{
     display: block;
+    
 }
 
 .descricoes #terra{
     margin: 4% 40px;
     display: none;
+    text-align: center;
 }
 
 .descricoes #terra:target{
@@ -80,6 +90,7 @@ span{
 .descricoes #marte{
     margin: 4% 40px;
     display: none;
+    text-align: center;
 }
 
 .descricoes #marte:target{
